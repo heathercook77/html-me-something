@@ -1,0 +1,106 @@
+
+.header {
+    background-color: #5656581a;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+html {
+    box-sizing: border-box;
+  }
+  
+  img {
+    border-radius: 8px;
+    max-width: 27%;
+    height: auto;
+  }
+
+  
+  
+ 
+
+  
+  body {
+    background-color: rgb(206, 210, 214);
+    color: rgb(235, 238, 241);
+  }
+
+  h1 {
+    text-shadow: 2px 2px 5px rgb(66, 69, 88);
+  }
+
+  .footer{text-align: center}
+  .main-text{text-align: center}
+  .introcolumn{text-align: center}
+  .dog{text-align: center;}
+  .image{text-align: center}
+  
+
+  .p1 {
+    font-family: "papyrus";
+  }
+  
+ 
+  }
+
+/* Style the header */
+.header {
+  background-color: #342742;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0.363);
+  color: black;
+}
+    
+  
+  /* Style the header */
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: center;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f133;
+    padding: 10px;
+    text-align: center;
+    
+   
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      width: 100%;
+    
+    
+  }
+  </style>
+  </head>
+  <body>
